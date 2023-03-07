@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc_site.css">
+</head>
+<body>
+    <form onsubmit="return false" class="form">
+        <div class="div">
+            <p class="div__title">Тип сайта</p>
+            <select name="" class="selectType">
+            <option value="0">Выберите вариант</option>
+            <option value="12000" class="landing">одностраничный сайт</option>
+            <option value="10000" class="coat">Сайт-визитка</option>
+            <option value="40000" class="portal">Сайт-портал</option>
+            <option value="45600" class="online_store">Интернет-магазин</option>
+        </select>
+        </div>
+        
+
+        <div class="byuBlock">
+            <div class="div">
+                <p class="div__title">Количество страниц</p>
+                <select name="" class="selectPages" disabled>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+
+            <div class="div">
+                <p class="div__title">Дизайн сайта</p>
+                <select name="" class="selectDesign">
+                    <option value="0">Выберите вариант</option>
+                    <option value="10800">Готовый дизайн</option>
+                    <option value="25600">Шаблон дизайна</option>
+                    <option value="40000">Разработка индивидуального дизайна</option>
+                </select
+            ></div>
+
+            <div class="div">
+                <p class="div__title">Верстка сайта</p>
+                <div class="selectVer">
+                    <input type="radio" name="ver" value="1600" id="adaptive"> <label for="adaptive">Адаптивная</label> 
+                    <input type="radio" name="ver" value="3500" id="animation"> <label for="animation">Адаптивная с эффектом анимации</label>  
+                </div>
+            </div>
+
+            <div class="div">
+                <p class="div__title">Сроки создания сайта</p>
+                <div class="selectTime">
+                    <input type="radio" name="time" value="2400" id="twoweek"> <label for="twoweek">2 недели</label> 
+                    <input type="radio" name="time" value="1500" id="onemonth"> <label for="onemonth">1 месяц</label>
+                    <input type="radio" name="time" value="1200" id="twomonth"> <label for="twomonth">2 месяца</label>
+                    <input type="radio" name="time" value="900" id="threemonth"> <label for="threemonth">3 месяца</label>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="res">Стоимость сайта: <span id="result">0</span> рублей</div>
+    </form>
+
+    <script src="calc_site.js"></script> 
+</body>
+</html>

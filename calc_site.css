@@ -1,0 +1,36 @@
+.form{
+    border: 2px dashed rgb(64, 64, 160);
+    display: grid;
+    width: 70%;
+}
+.div{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-items: center;
+    text-align: center;
+}
+.div__title{
+    font-size: 1.3em;
+    color: rgb(104, 103, 103);
+}
+.selectType,
+.selectPages,
+.selectDesign{
+    width: 70%;
+    height: 30px;
+    font-size: 0.9em;
+    text-align: center;
+}
+.selectTime, 
+.selectVer{
+    font-size: 1.1em;
+    text-align: start;
+}
+.res{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(161, 196, 197);
+    padding: 20px 0;
+}
