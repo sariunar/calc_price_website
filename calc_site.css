@@ -1,7 +1,7 @@
 .form{
     border: 2px dashed rgb(64, 64, 160);
     display: grid;
-    width: 70%;
+    width: 100%;
 }
 .div{
     height: 70px;
@@ -33,4 +33,11 @@
     text-align: center;
     background-color: rgb(161, 196, 197);
     padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .selectTime,
+    .selectVer{
+        display: grid;
+    }
 }
